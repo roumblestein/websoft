@@ -1,0 +1,10 @@
+Some of the github things were new, like forked repo which were nice!
+Otherwise im pretty well versed (to a degree) in git, im often the one that handles and are in charge of the git in out past projects.
+Github pages were new, also a good way to try webpages!
+We have also been using gitlab in the software engineering 2 course for that project.
+Ive been asked recently to take a look on how to create a website so ive been reading some on firebase etc and started a base project there with working index, but that is as far as my knowledge goes.
+Downloaded a website editor, Komodo. They are fairly large and are stacked with information (a bit much honestly).
+My past experience in web application is very limited to none, which makes this course even more interesting and motivating!
+What i have learned is mostly the existence of github pages, a brief intro on atom and basic html.
+Getting the forked repo to work is also a new experience and how that can help in certain environments.
+The git as said, was not that hard to set up, the source repo was new though and can also be valuable at times. 
