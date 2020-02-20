@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Build a table</title>
-</head>
+
+
+    <header>
+        <nav>
+            <a href="me.html">Me</a> |
+            <a href="report.html">Report</a> |
+            <a href="about.html">About</a> |
+            <a href="schools.html">schools</a> |
+        </nav>
+    </header>
+
+
+    <head>
+        <title>Convert JSON Data to HTML Table</title>
+        <style>
+            th, td, p, input {
+                font:14px Verdana;
+            }
+            table, th, td 
+            {
+                border: solid 1px #DDD;
+                border-collapse: separate;
+                padding: 20px 10px;
+                text-align: center;
+            }
+            th {
+                font-weight:bold;
+            }
+        </style>
+    </head>
 <body>
-<table>
-<!-- here goes our data! -->
-</table>
+    <input type="button" onclick="jsonFetch()" value="fetch" />
+    <p id="showData"></p>
 </body>
+
+<script src="js/duck.js"></script>
 <script src="js/fetch.js"></script>
+
 </html>
