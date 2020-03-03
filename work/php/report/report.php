@@ -109,19 +109,19 @@
 
 <section>
 <h2>S05</h2>
-<p><span style="font-weight:bold">         </span></p>
+<p><span style="font-weight:bold">How do you feel about PHP as a programming language?</span></p>
 
    <p></p>
 
-    <p><span style="font-weight:bold">   </span></p>
+    <p><span style="font-weight:bold">Can you compare PHP to other languages you know?</span></p>
 
    <p></p>
 
-   <p><span style="font-weight:bold">    </span></p>
+   <p><span style="font-weight:bold">Describe how you took on the coding exercise, what grade did you aim for and are you satisfied with the result?</span></p>
 
    <p></p>
 
-   <p><span style="font-weight:bold">  </span></p>
+   <p><span style="font-weight:bold">What is your TIL for this course section?</span></p>
 
    <p> </p>
 </section>

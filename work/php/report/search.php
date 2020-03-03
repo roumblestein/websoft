@@ -1,59 +1,70 @@
 <?php require __DIR__ . "\\view\\header.php"; 
 
-require __DIR__ . "\\db\\connect.php";
-   require __DIR__ . "\\db\\queries.php"; 
+require "db/connect.php";
+require "db/functions.php";
 
-    $rowType = 1;
+// Get incoming values
+$search = $_GET["search"] ?? null;
+$like = "%$search%";
+//var_dump($_GET);
 
-    $searchValue = $_GET["searchValue"] ?? null;
+if ($search) {
+    // Connect to the database
+    $db = connectDatabase($dsn);
 
-    if($searchValue){
-        $db = connectToDatabase($dsn);
-        $res = selectWildcard($db, $searchValue);
-    }
+    // Prepare and execute the SQL statement
+    $sql = <<<EOD
+SELECT * FROM tech
+WHERE
+    idtech = ?
+    OR manufacturer LIKE ?
+    OR name LIKE ?
+    OR serialnumber LIKE ?
+;
+EOD;
+    $stmt = $db->prepare($sql);
+    $stmt->execute([$search, $like, $like, $like]);
 
-?>
+    // Get the results as an array with column names as array keys
+    $res = $stmt->fetchAll();
+    
+}
 
 
 
+
+?><h1>Search the database</h1>
 
 <form>
     <p>
-        <label>Search for value:
-            <input type="text"  value="<?= $searchValue ?>"/>
+        <label>Search: 
+            <input type="text" name="search" value="<?= $search ?>">
         </label>
-
         <label>
             <input type="submit" value="Submit"/>
         </label>
     </p>
-
 </form>
 
-<?php if ($searchValue) : ?>
-    <table class="dataTable">
-        <tr class="dataColumn">
+<?php if ($search) : ?>
+    <table>
+        <tr>
             <th>ID</th>
-            <th>manufacturer</th>
-            <th>name</th>
-            <th>serialnumber</th>
+            <th>Manufacturer</th>
+            <th>Name</th>
+            <th>Serialnumber</th>
         </tr>
 
     <?php foreach ($res as $row) : ?>
-        <tr class="dataRow<?= $rowType ?>">
+        <tr>
             <td><?= $row["idtech"] ?></td>
             <td><?= $row["manufacturer"] ?></td>
             <td><?= $row["name"] ?></td>
-            <td><?= $row["serialnumber"]?></td>
+            <td><?= $row["serialnumber"] ?></td>
         </tr>
-    <?php 
-        if ($rowType == 1){
-            $rowType = 0;
-        }else {
-            $rowType = 1;
-        }
-        endforeach;
-    ?>
+    <?php endforeach; ?>
+
     </table>
 <?php endif; ?>
+
 <?php require __DIR__ . "\\view\\footer.php"; ?>

@@ -10,35 +10,3 @@ body {
     background: #fff;
     width: 700px;
 }
-
-.dataTable {
-    width: inherit;
-    box-shadow: 5px 10px black;
-    margin-bottom: 20px;
-}
-
-.dataColumn {
-    background-color: skyblue;
-}
-
-.dataRow0 {
-    text-align: center;
-    background-color: white;
-    color: black;
-}
-
-.dataRow1 {
-    text-align: center;
-    background-color: lightgray;
-    color: black;
-}
-
-.dataRow0:hover {
-    background-color: skyblue;
-    color: white;
-}
-
-.dataRow1:hover {
-    background-color: skyblue;
-    color: white;
-}
