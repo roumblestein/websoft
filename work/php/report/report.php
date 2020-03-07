@@ -147,21 +147,21 @@
 
 <section>
 <h2>S07</h2>
-<p><span style="font-weight:bold">         </span></p>
+<p><span style="font-weight:bold">Try to explain the platform .NET (C#, ASP.NET) to a skilled programmer, but newbie to this Microsoft technology.</span></p>
 
-   <p></p>
+   <p>Its a platform that uses C# and HTML/CSS. You can use both c# and html code directly into the pages, even use C# code inside html code.</p>
 
-    <p><span style="font-weight:bold">   </span></p>
+    <p><span style="font-weight:bold">Elaborate by comparing .NET technologies with the other technologies we learned during the course.</span></p>
 
-   <p></p>
+   <p>Personally i prefer the .net since it makes more sence to me with C#, PHP i did not like as much since it provided more rules. Net also feels like it is easier to get into and that you can structure code better.</p>
 
-   <p><span style="font-weight:bold">    </span></p>
+   <p><span style="font-weight:bold">Describe how you took on the coding exercise, what grade did you aim for and are you satisfied with the result?</span></p>
 
-   <p></p>
+   <p>Aimed for grade 3 as per usual. I liked .net, reminded a lot about coding in intellij and felt more natural. Felt that the result were good and did not use examples as help but the videos instead which provided more information.</p>
 
-   <p><span style="font-weight:bold">  </span></p>
+   <p><span style="font-weight:bold">What is your TIL for this course section?</span></p>
 
-   <p> </p>
+   <p>basic .net programming, how to use json, pages, controllers and services. </p>
 </section>
 
 <section>
