@@ -111,19 +111,19 @@
 <h2>S05</h2>
 <p><span style="font-weight:bold">How do you feel about PHP as a programming language?</span></p>
 
-   <p></p>
+   <p>It seems interesting and new, feels like you can do a lot of backend programming with the help of PHP and feels more suited for it than javascript.</p>
 
     <p><span style="font-weight:bold">Can you compare PHP to other languages you know?</span></p>
 
-   <p></p>
+   <p>Not really, it is quite different towards precious languages, probably the reason it was harder to get into.</p>
 
    <p><span style="font-weight:bold">Describe how you took on the coding exercise, what grade did you aim for and are you satisfied with the result?</span></p>
 
-   <p></p>
+   <p>I aimed for grade 3 as usual because of time limitation. The examples was almost too good and provided almost every building stone needed to build the search function. </p>
 
    <p><span style="font-weight:bold">What is your TIL for this course section?</span></p>
 
-   <p> </p>
+   <p>Some basic PHP, more table making and how to use JSON in PHP. </p>
 </section>
 
 <section>
