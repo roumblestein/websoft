@@ -192,7 +192,7 @@
 <h2>S09</h2>
 <p><span style="font-weight:bold">Elaborate on a few (3-5) different security issues or concerns, from your own experience, related to web application security and relate them to the OWASP top ten.</span></p>
 
-   <p></p>
+   <p>.</p>
 
     <p><span style="font-weight:bold">Summarize by providing your own guidelines to a new web programmer on the topic “The essential guidelines to follow to create secure web applications”.</span></p>
 
