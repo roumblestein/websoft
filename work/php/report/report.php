@@ -128,21 +128,25 @@
 
 <section>
 <h2>S06</h2>
-<p><span style="font-weight:bold">         </span></p>
+<p><span style="font-weight:bold">What is your own opinion on popularity of programming languages and what are your thoughts of future popularity among programming languages?</span></p>
 
-   <p></p>
+   <p>Thats a hard question, java is still the most popular in a sense even tho it is decreasing, i think java is starting to get outdated and will be overtaken by newer languages. Also i think that languages will be more tailored towards certain uses (already is in a sense but it will increse).</p>
 
-    <p><span style="font-weight:bold">   </span></p>
+    <p><span style="font-weight:bold">What will be your own choice for selecting future programming languages?</span></p>
 
-   <p></p>
+   <p>Hard to tell, will probably depend on the job. cant see me only using one language either, will probably have to adapt to whatever language is required of me.</p>
 
-   <p><span style="font-weight:bold">    </span></p>
+   <p><span style="font-weight:bold"> Do your own investigation on https://trends.google.com (Links to an external site.) to customize your own comparison on programming languages (or frameworks) and elaborate on the results. </span></p>
 
-   <p></p>
+   <p>i did a comparison between java, python and c. Python is the clear winner even tho java is still a contender, however, C has really low interest. Python averaged at 84, java at 54 and C at 18. Tells the story that python is a newer and overall more interresting programming language.  </p>
 
-   <p><span style="font-weight:bold">  </span></p>
+   <p><span style="font-weight:bold">If you were to recommend a language/framework/technology to your potential employer and your next large project, what would it be and how would you “sell it”?</span></p>
 
-   <p> </p>
+   <p>Well since java is the language we have used in the majority of the education this would be my first choice to work in, however i would very much like to develop skills in another language but my overall worth and effecieny would be lowered until i have learned the basics of the new system.</p>
+
+   <p><span style="font-weight:bold">What is your TIL for this course section?</span></p>
+
+   <p>well python is a very popular language, my own thoughts and view put down.</p>
 </section>
 
 <section>
@@ -161,17 +165,44 @@
 
    <p><span style="font-weight:bold">What is your TIL for this course section?</span></p>
 
-   <p>basic .net programming, how to use json, pages, controllers and services. </p>
+   <p>basic .net programming, how to use json, pages, controllers and services. What the point is of the startup file and the importance to make sure certain features are included in startup. </p>
 </section>
 
 <section>
 <h2>S08</h2>
-<p>Here is the text for this section.</p>
+<p> Findings and elaboration </p>
+            <p> The best of our three websites was definitely Expressen, it loaded the fastest, and performed best
+                on almost every aspect. Aftonbladet was not very far behind, as it also was a quick and good website.
+                Kristianstadbladet on the other hand, was not very close to the other two websites. It was a slow 
+                website compared to them. 
+                
+                We used pagespeed to see the biggest problems of the websites and how to solve them.
+                Aftonbladet had a quick site and could not improve that much. The biggest time-saver they could
+                do is to eliminate render-blocking resources, and thereby save 1.07 seconds. They could also improve
+                some image-problems. But overall they have a very quick site.
+                Expressens website is excellent, their only time-saver would be to defer offscreen images. But other 
+                than that, their website runs very quick. 
+                Kristianstadbladet has some very bad statistics compared to Aftonbladet and Expressen. Their website runs 
+                significally slower and could save a lot of time on some issues. They could save 11.25 seconds on serving
+                images in next-gen formats. And 10.92 seconds on defering offscreen images.
+                  </p>
 </section>
 
 <section>
 <h2>S09</h2>
-<p>Here is the text for this section.</p>
+<p><span style="font-weight:bold">Elaborate on a few (3-5) different security issues or concerns, from your own experience, related to web application security and relate them to the OWASP top ten.</span></p>
+
+   <p></p>
+
+    <p><span style="font-weight:bold">Summarize by providing your own guidelines to a new web programmer on the topic “The essential guidelines to follow to create secure web applications”.</span></p>
+
+   <p></p>
+
+   <p><span style="font-weight:bold">What is your TIL for this course section?</span></p>
+
+   <p></p>
+
+   
 </section>
 
 <section>
