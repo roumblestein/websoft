@@ -192,15 +192,26 @@
 <h2>S09</h2>
 <p><span style="font-weight:bold">Elaborate on a few (3-5) different security issues or concerns, from your own experience, related to web application security and relate them to the OWASP top ten.</span></p>
 
-   <p>.</p>
+   <p>(Sensitive Data Exposure) One of the largest security issues is the ones involving sensitive information. How do certain sites handle your data and in which way. Is their connections to databases safe, how do they handle the data from databases etc etc.
+  (Broken Authentication) Another large problem is the verification of persons. How do you retrieve a password that you have forgotten, is the person who is trying to retrieve a password the real person or a hacker. registrating with the same email everywhere also increases the risk that hackers will retrieve your email from somewhere.
+   I have a 20 year old email since i was little and i probably get 3 scam mails and 4 password retrieval mails a day that is not my own. It is infested like from some horror movie. 
+   Also the current requirements for password from websites are still to little, 8 characters and enough with 1 letter or number. This is way to easy for hackers to break with algorithms. Websites should request upper & lowercase, Special letters and numbers, at minimum 12-13 characters, this would make attacks with algorithms much harder.
+   (Components) Using librarys or components with little understanding can result in large security flaws. Same with copypasting code can also lead to bugs and unintended uses that attackers can find. 
+    </p>
 
     <p><span style="font-weight:bold">Summarize by providing your own guidelines to a new web programmer on the topic “The essential guidelines to follow to create secure web applications”.</span></p>
 
-   <p></p>
+   <p>1) make users create safe passwords.
+   2) ask for help if you need it.
+   3) encryption and decryption is your friend, learn it.
+   4) if you have a service or have users in any way. Pay people to break your website and try to find weaknesses.
+   5) dont copy-paste code if you dont fully understand it, understand what your code does and it will also be easier to predict how it will react in certain cases.
+   6) make mistakes and learn from it, just make sure it doesn't involve my personal information.
+   7) search it up and learn which security issues you will be most affected by.</p>
 
    <p><span style="font-weight:bold">What is your TIL for this course section?</span></p>
 
-   <p></p>
+   <p>Different vulnerabilities and what they are caused by. How hackers and attackers try to steal information and manipulate functions and bugs. Less is more in the sense of adding services and methods and how you should seperate them.   </p>
 
    
 </section>
