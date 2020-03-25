@@ -54,8 +54,11 @@ namespace Webapp
 
             app.UseAuthorization();
 
+            
+
             app.UseEndpoints(endpoints =>
             {
+                
                 endpoints.MapRazorPages();
                 endpoints.MapControllers();
               /*  endpoints.MapGet("/Accounts", (context) =>
